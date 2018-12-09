@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    font-family:sans-serif;
+    
+}
+
+
+
+
+/*
+==========================================
+        header
+========================================== */
+
+
+
+
+
+.header{
+      height: 800px;
+      background-image: url(../images/55.jpg);
+    background-size: cover;
+    background-position: center;
+     position: relative;
+     text-align: center;
+    overflow: hidden;
+}
+
+
+
+.header .header-desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+ .header .header-desc h2{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+    letter-spacing: 5px;
+   
+}
+
+
+ .header .header-desc p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+     color: #444; 
+}
+
+
+
+ .header .header-desc .btn{
+    width:150px;
+    height: 40px;
+    border: 0;
+    background: #72a388;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+ .header .header-desc .btn:hover{
+     background: rgba(114,163,136,0.8);
+   
+}
+
+/*
+==========================================
+        Offer
+========================================== */
+
+
+
+.offer{
+     height: 300px;
+      background-color: #eee;
+    background-size: cover;
+    background-position: center;
+     position: relative;
+     text-align: center;
+    overflow: hidden;
+    padding-top: 5px;
+    
+}
+
+
+
+.offer .offer-desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+.offer .offer-desc h2{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+   margin-bottom: 10px;
+    color: #444;
+   
+}
+
+
+
+.offer .offer-desc p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+     color: #444;
+    
+}
+
+.offer .offer-desc .btn{
+    width:150px;
+    height: 40px;
+    border: 0;
+    background: #444;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.offer .offer-desc .btn:hover{
+     background: rgba(114,163,136,0.8);
+}
+
+
+/*
+==========================================
+        List-item
+========================================== */
+
+
+
+.list-item .list-item-desc{
+    background: #72a388;
+   padding-top: 50px;
+   padding-bottom: 150px;
+    text-align: center;
+    overflow: hidden;
+   
+   
+  
+}
+
+
+.list-item .list-item-desc p{
+    font-size: 20px;
+    color: #eee;
+    padding-top: 50px;
+  
+}
+
+
+
+.list-item .list-item-desc h2{
+     font-size: 40px;
+      color: #fff;
+     margin-bottom: 30px;
+}
+
+
+
+
+
+.container{
+    width:70%;
+    margin: auto;
+    overflow: hidden;
+   
+    
+}
+
+
+.list-item .list-item-desc .container .list{
+    list-style:none;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.list-item .list-item-desc .container .list .item{
+   display: inline-block;
+     text-align: center;
+    padding-left: 40px;
+}
+
+
+
+.list-item .list-item-desc .container .list .item .icon{
+    color: #72a388;
+    background: #fff;
+    padding: 15px 20px; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+.list-item .list-item-desc .container .list .item .icon:hover{
+     color: #fff;
+    background: #72a388;
+    transition: 1s;
+    
+ 
+    
+} 
+
+
+.list-item .list-item-desc .container .list .item p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+
+.list-item .list-item-desc .container .list .item span{
+     color: #fff;
+    font-size: 14px;
+     font-weight: normal;
+}
+
+
+   
+
+    
+   
+/*
+
+
+==========================================
+        download
+========================================== */
+
+    
+.download{
+     background-image: url(../images/cover11.jpg);
+       height: 800px;
+        background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+    
+.download .download-desc{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.download .download-desc p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+
+.download .download-desc .btn{
+  
+    width:150px;
+    height: 40px;
+    border: 0;
+    background: #72a388;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,150%);
+    
+}
+
+.download .download-desc .btn:hover{
+     background: rgba(114,163,136,0.8);
+}
+
+
+/*
+
+
+==========================================
+        Portfolio
+========================================== */
+.portfolio{
+    
+    overflow: hidden;
+}
+
+
+.portfolio .portfolio-desc{
+   
+}
+
+
+.portfolio .portfolio-desc p{
+    font-size: 20px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+    
+  
+}
+
+
+
+.portfolio .portfolio-desc h2{
+     font-size: 40px;
+      color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.images{
+    width: 100%;
+}
+ .images .img{
+    width: 50%;
+    height: 300px;
+  background: url(../image/gal1.jpeg);
+     float: left;
+   
+}
+
+.images .img .over{
+    width: 100%;
+    height: 100%;
+     background: rgba(0,0,0,0.5);
+     opacity: 0;
+    
+}
+
+.images .img:hover .over{
+    opacity: 1;
+}
+
+.images .i_1{background-image: url(../images/1.jpeg);}
+.images .i_2{background-image: url(../images/2.jpeg);}
+.images .i_3{background-image: url(../images/3.jpeg);}
+.images .i_4{background-image: url(../images/44.jpeg);}
+ 
+
+.clear{
+    clear: both;
+}
+
+/*
+==========================================
+        contact
+========================================== */
+
+
+
+
+
+
+
+
+
+.contact{
+    
+       
+    overflow: hidden;
+    position: relative;
+}
+    
+.contact .container .contact{
+    
+     background:#72a388;
+       height: 200px;
+    margin-top: 80px;
+   
+  
+   
+   
+}
+
+.contact .container .contact p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.contact .container .contact .btn1{
+  
+    width:150px;
+    height: 40px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 400px;
+    margin-right: 10px;
+  
+    
+}
+
+.contact .container .contact .btn2{
+  
+    width:150px;
+    height: 40px;
+    border: 0;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+     
+    
+}
+
+.contact .container .contact .btn1:hover{
+     background: #fff;
+    color: #72a388;
+}
+
+.contact .container .contact .btn2:hover{
+     background: #fff;
+    color: #72a388;
+}
+
+/*
+==========================================
+        footer
+========================================== */
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.footer .social .icon{
+     color: #fff;
+    background: #72a388;
+    padding: 15px 20px; 
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer .social .icon:hover{
+     color: #72a388;
+    background: #fff;
+    transition: 1s;
+}
+
+.footer .social p{
+    margin: 30px 10px;
+}
+
+
